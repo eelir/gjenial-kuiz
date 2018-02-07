@@ -1,0 +1,137 @@
+/* YOUR CUSTOM STYLES */
+
+.myclass {
+    /*background-color: rgba(219, 219, 219, 0.5);*/
+    text-align: center;
+    width: 100%;
+}
+.stepper {
+    /*margin-bottom: 1px;*/
+    text-align: center;
+}
+
+.stepper-steps {
+    padding-top:2px;
+    height: 30px;
+    background-color: rgba(104, 104, 104, 0.5);
+    z-index:99999!important;
+    margin-bottom: -30px;
+    position: relative;
+}
+
+.stepper-steps-isOffset {
+    position: relative;
+    /*top: -30px;*/
+    margin: 0 5px 0px 5px;
+}
+
+.stepper-content {
+    /*padding: 4px;*/
+    background-color: #fa05fa;
+}
+
+.stepper-step {
+    display: inline-block;
+    padding-right:0px;
+    padding-left:0px;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.87);
+}
+.stepper-step:not(.stepper-step-isDisabled):hover, .stepper-step:not(.stepper-step-isDisabled):hover .stepper-stepContent .stepper-stepMarker:hover {
+    /*background-color: #F5F5F5;*/
+    font-weight: bold;
+    /*color:red;*/
+}
+.stepper-step:first-child {
+    text-align: left;
+}
+.stepper-step:last-child {
+    text-align: right;
+}
+
+.stepper-step::after {
+    content: '';
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    right: 0;
+    height: 1px;
+    /*background: #BDBDBD;*/
+}
+.stepper-step:first-child::after {
+    left: 2px;
+}
+.stepper-step:last-child::after {
+    right: 2px;
+}
+
+.stepper-step-isActive {
+    font-weight: 600;
+}
+
+.stepper-step-isValid {
+    font-weight: 600;
+}
+
+.stepper-step-isDisabled {
+    color: rgba(0, 0, 0, 0.38);
+    cursor: default;
+}
+
+.stepper-stepMarker {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    /*margin-right: 2px;*/
+    text-align: center;
+    color: white;
+    line-height: 24px;
+    background-color: rgba(0, 0, 0, 0.38);
+    border-radius: 24px;
+    font-weight: 100;
+    font-size: 12px;
+}
+
+.stepper-step-isActive .stepper-stepMarker {
+    background-color: #2196F3;
+    background-position: 2px 2px!important;
+}
+
+.stepper-step-isValid .stepper-stepMarker {
+    background: #2196F3;
+    /*text-indent: -10000px;*/
+    /*background: url('data:image/svg+xml;charset=utf8,<svg fill="#FFFFFF" height="20" viewBox="0 0 24 24" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/> <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>') no-repeat #2196F3;*/
+    background-position: 2px 2px!important;
+    background-color: #2196F3;
+}
+
+.stepper-step-isCorrect .stepper-stepMarker {
+    background-position: 2px 2px!important;
+    text-indent: -10000px;
+    background: url('data:image/svg+xml;charset=utf8,<svg fill="#FFFFFF" height="20" viewBox="0 0 24 24" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/> <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>') no-repeat #09C33A;
+}
+
+.stepper-step-isIncorrect .stepper-stepMarker {
+    background-position: 2px 2px!important;
+    text-indent: -10000px;
+    background: url('data:image/svg+xml;charset=utf8,<svg fill="#FFFFFF" height="20" viewBox="0 0 24 24" width="19" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/> <path d="M19,6.41L17.59,5 12,10.59 6.41,5 5,6.41 10.59,12 5,17.59 6.41,19 12,13.41 17.59,19 19,17.59 13.41,12z"/></svg>') no-repeat #E61E2E;
+}
+
+.stepper-stepContent {
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+    padding: 0 0px;
+    /*background-color: #fff;*/
+}
+
+/*.card-image-container,*/
+.card .view {
+        margin: auto; background-color:#cccccc!important;
+}
+
+.card {
+    background-color:whitesmoke;
+    border-radius: .0rem;
+    box-shadow: 0 0px 0px 0 rgba(0,0,0,.16), 0 0px 0px 0 rgba(0,0,0,.12)!important;
+}
