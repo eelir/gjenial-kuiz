@@ -36,7 +36,7 @@ var app = {
       var isOverlap = true; //true: overlap, false: split
       var isTest = true;
       alert("hej");
-
+      /*
       window.admob.initAdmob("ca-app-pub-7536052581576496/1281742378","ca-app-pub-7536052581576496/5803920249");//, isOverlap, isTest);
 
       var admobParam= new  window.admob.Params();
@@ -45,9 +45,17 @@ var app = {
        admobParam.isTesting=true;
        alert("1");
 
-       
-       window.admob.showBanner(admob.BannerSize.BANNER,admob.Position.TOP_CENTER,admobParam);
 
+       window.admob.showBanner(admob.BannerSize.BANNER,admob.Position.TOP_CENTER,admobParam);
+       */
+       // Set AdMobAds options:
+       initAds();
+
+       // display a banner at startup
+       admob.createBannerView();
+
+       // request an interstitial
+       admob.requestInterstitialAd();
 
       var hiScores = window.localStorage.getItem("hiScores");
       is_sound = window.localStorage.getItem("sound");
