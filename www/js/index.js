@@ -35,7 +35,7 @@ var app = {
     onDeviceReady: function() {
       var isOverlap = true; //true: overlap, false: split
       var isTest = true;
-      alert("hej");
+      
       /*
       window.admob.initAdmob("ca-app-pub-7536052581576496/1281742378","ca-app-pub-7536052581576496/5803920249");//, isOverlap, isTest);
 
