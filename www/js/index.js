@@ -48,6 +48,7 @@ var app = {
 
        window.admob.showBanner(admob.BannerSize.BANNER,admob.Position.TOP_CENTER,admobParam);
        */
+       console.log("Entering initAds!");
        // Set AdMobAds options:
        initAds();
 

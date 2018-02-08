@@ -8,10 +8,10 @@
     </feature>
     <name>Gjenial Kuiz</name>
     <description>
-        Hello World sample application that responds to the deviceready event.
+        Testt Version of the app.
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+    <author email="sgjenial@gjenial.com" href="http://gjenial.com">
+        Gjenial.com Team
     </author>
     <content src="index.html" />
     <gap:plugin name="cordova-plugin-x-socialsharing" source="npm" />

@@ -208,6 +208,7 @@ function load_Question(index)
 }
 function GameOver(status){
   //alert("Game Over!");
+  admob.showInterstitialAd();
   if (status==1)
   {
     $('#myModal-body').html('  <p>Gabuat përgjigjjen!</p>');
@@ -380,6 +381,8 @@ function initAds() {
           tappxIdiOS:       "/XXXXXXXXX/Pub-XXXX-iOS-IIII",
           tappxIdAndroid:   "/XXXXXXXXX/Pub-XXXX-Android-AAAA",
           tappxShare:       0.5,
+          isTesting:            true,
+          autoShowInterstitial: false
 
         });
         console.log("admob set options ok");
