@@ -602,6 +602,23 @@ module.exports = [
             "navigator.notification",
             "navigator"
         ]
+    },
+    {
+        "file": "plugins/cordova-connectivity-monitor/www/connectivity.js",
+        "id": "cordova-connectivity-monitor.connectivity",
+        "pluginId": "cordova-connectivity-monitor",
+        "clobbers": [
+            "window.connectivity"
+        ]
+    },
+    {
+        "file": "plugins/phonegap-admob/www/admob.js",
+        "id": "phonegap-admob.AdMobAds",
+        "pluginId": "phonegap-admob",
+        "clobbers": [
+            "window.admob",
+            "window.tappx"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -626,7 +643,9 @@ module.exports.metadata =
     "cordova-plugin-splashscreen": "3.2.2",
     "cordova-plugin-statusbar": "2.1.3",
     "cordova-plugin-vibration": "2.1.6",
-    "cordova-plugin-whitelist": "1.2.2"
+    "cordova-plugin-whitelist": "1.2.2",
+    "cordova-connectivity-monitor": "1.2.2",
+    "phonegap-admob": "4.1.15"
 }
 // BOTTOM OF METADATA
 });

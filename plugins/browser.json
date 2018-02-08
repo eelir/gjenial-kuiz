@@ -63,10 +63,16 @@
         },
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.gjenial.kuiz"
+        },
+        "phonegap-admob": {
+            "PACKAGE_NAME": "com.gjenial.kuiz"
         }
     },
     "dependent_plugins": {
         "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.gjenial.kuiz"
+        },
+        "cordova-connectivity-monitor": {
             "PACKAGE_NAME": "com.gjenial.kuiz"
         }
     }

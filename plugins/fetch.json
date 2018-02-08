@@ -158,5 +158,21 @@
         },
         "is_top_level": true,
         "variables": {}
+    },
+    "phonegap-admob": {
+        "source": {
+            "type": "registry",
+            "id": "phonegap-admob@4.1.15"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-connectivity-monitor": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-connectivity-monitor"
+        },
+        "is_top_level": false,
+        "variables": {}
     }
 }
