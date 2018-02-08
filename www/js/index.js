@@ -44,6 +44,8 @@ var app = {
        //admobParam.isForChild=true;
        admobParam.isTesting=true;
        alert("1");
+
+       
        window.admob.showBanner(admob.BannerSize.BANNER,admob.Position.TOP_CENTER,admobParam);
 
 
