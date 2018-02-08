@@ -17,6 +17,7 @@ is_vibrate = 1;
 
 function RunQuiz(strURL, id)
 {
+  admob.requestInterstitialAd();
   if (window.navigator.onLine)
   {
   quizCatID = id;
@@ -381,7 +382,7 @@ function initAds() {
           tappxIdiOS:       "/XXXXXXXXX/Pub-XXXX-iOS-IIII",
           tappxIdAndroid:   "/XXXXXXXXX/Pub-XXXX-Android-AAAA",
           tappxShare:       0.5,
-          isTesting:            true,
+          isTesting:            false,
           autoShowInterstitial: false
 
         });
