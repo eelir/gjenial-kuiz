@@ -382,7 +382,7 @@ function initAds() {
           tappxIdiOS:       "/XXXXXXXXX/Pub-XXXX-iOS-IIII",
           tappxIdAndroid:   "/XXXXXXXXX/Pub-XXXX-Android-AAAA",
           tappxShare:       0.5,
-          isTesting:            false,
+          isTesting:            true,
           autoShowInterstitial: false
 
         });
