@@ -51,13 +51,13 @@ var app = {
        // Set AdMobAds options:
        initAds();
 
-       alert("initAds passed!")
+       console.log("initAds passed!");
        // display a banner at startup
        admob.createBannerView();
-       alert("createBannerView passed!");
+       console.log("createBannerView passed!");
        // request an interstitial
        admob.requestInterstitialAd();
-       alert("requestInterstitialAd passed!");
+       console.log("requestInterstitialAd passed!");
       var hiScores = window.localStorage.getItem("hiScores");
       is_sound = window.localStorage.getItem("sound");
       is_vibrate = window.localStorage.getItem("vibrate");

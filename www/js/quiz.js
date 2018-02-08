@@ -358,9 +358,9 @@ function shareResults()
 
 
 function initAds() {
-    alert("enter init");
+    console.log("enter init");
       if (admob) {
-        alert("admob ok");
+        console.log("admob ok");
         var adPublisherIds = {
           ios : {
             banner : "ca-app-pub-7536052581576496/8597674350",
@@ -382,7 +382,7 @@ function initAds() {
           tappxShare:       0.5,
 
         });
-        alert("admob set options ok");
+        console.log("admob set options ok");
         registerAdEvents();
 
       } else {
