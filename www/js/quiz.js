@@ -363,8 +363,8 @@ function initAds() {
         alert("admob ok");
         var adPublisherIds = {
           ios : {
-            banner : "ca-app-pub-XXXXXXXXXXXXXXXX/BBBBBBBBBB",
-            interstitial : "ca-app-pub-XXXXXXXXXXXXXXXX/IIIIIIIIII"
+            banner : "ca-app-pub-7536052581576496/8597674350",
+            interstitial : "ca-app-pub-7536052581576496/2998218535"
           },
           android : {
             banner : "ca-app-pub-7536052581576496/1281742378",
