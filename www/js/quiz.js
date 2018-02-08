@@ -296,7 +296,7 @@ function Timer(countTo){
 
 function progressbar(val)
 {
-  if (val<30)
+  if (val<20)
     {
       $( "#timer" ).removeClass( "bg-warning", 1500, "easeInBack" );
       $( "#timer" ).addClass( "bg-danger", 0, "easeInBack" );
