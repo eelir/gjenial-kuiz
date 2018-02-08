@@ -35,7 +35,7 @@ var app = {
     onDeviceReady: function() {
       var isOverlap = true; //true: overlap, false: split
       var isTest = true;
-      
+
       /*
       window.admob.initAdmob("ca-app-pub-7536052581576496/1281742378","ca-app-pub-7536052581576496/5803920249");//, isOverlap, isTest);
 
@@ -51,9 +51,10 @@ var app = {
        // Set AdMobAds options:
        initAds();
 
+       alert("initAds passed!")
        // display a banner at startup
        admob.createBannerView();
-
+       alert("createBannerView passed!")
        // request an interstitial
        admob.requestInterstitialAd();
 

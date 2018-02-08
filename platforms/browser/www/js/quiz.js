@@ -382,7 +382,7 @@ function initAds() {
           tappxShare:       0.5,
 
         });
-
+        alert("admob set options ok");
         registerAdEvents();
 
       } else {
