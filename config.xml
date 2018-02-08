@@ -30,7 +30,7 @@
     <plugin name="cordova-plugin-statusbar" source="npm" spec="~2.1.2" />
     <plugin name="cordova-plugin-vibration" source="npm" spec="~2.1.0" />
     <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1" />
-    <gap:plugin name="cordova-plugin-socialsharing" source="npm" version="4.3.81" />
+    <gap:plugin name="cordova-plugin-x-socialsharing" source="npm" />
     <plugin spec="4.1.15" name="phonegap-admob"/>
     <platform name="android">
         <icon density="ldpi" src="www/res/icon/android/drawable-ldpi-icon.png" />
