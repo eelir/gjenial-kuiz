@@ -89,8 +89,8 @@ var app = {
       admob.createBannerView();
       console.log("createBannerView passed!");
       // request an interstitial
-      admob.requestInterstitialAd();
-      console.log("requestInterstitialAd passed!");
+      //admob.requestInterstitialAd();
+      //console.log("requestInterstitialAd passed!");
 
 
 

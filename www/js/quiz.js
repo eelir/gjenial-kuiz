@@ -17,7 +17,7 @@ is_vibrate = 1;
 
 function RunQuiz(strURL, id)
 {
-  admob.requestInterstitialAd();
+
   if (window.navigator.onLine)
   {
   quizCatID = id;
@@ -209,6 +209,7 @@ function load_Question(index)
 }
 function GameOver(status){
   //alert("Game Over!");
+  admob.requestInterstitialAd();
   admob.showInterstitialAd();
   if (status==1)
   {
