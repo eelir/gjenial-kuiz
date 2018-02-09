@@ -48,17 +48,7 @@ var app = {
 
        window.admob.showBanner(admob.BannerSize.BANNER,admob.Position.TOP_CENTER,admobParam);
        */
-       console.log("Entering initAds!");
-       // Set AdMobAds options:
-       initAds();
 
-       console.log("initAds passed!");
-       // display a banner at startup
-       admob.createBannerView();
-       console.log("createBannerView passed!");
-       // request an interstitial
-       admob.requestInterstitialAd();
-       console.log("requestInterstitialAd passed!");
       var hiScores = window.localStorage.getItem("hiScores");
       is_sound = window.localStorage.getItem("sound");
       is_vibrate = window.localStorage.getItem("vibrate");
@@ -89,6 +79,18 @@ var app = {
       }
       setHighScores(array);
 
+
+      console.log("Entering initAds!");
+      // Set AdMobAds options:
+      initAds();
+
+      console.log("initAds passed!");
+      // display a banner at startup
+      admob.createBannerView();
+      console.log("createBannerView passed!");
+      // request an interstitial
+      admob.requestInterstitialAd();
+      console.log("requestInterstitialAd passed!");
 
 
 
