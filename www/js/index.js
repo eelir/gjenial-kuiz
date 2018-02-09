@@ -52,7 +52,7 @@ var app = {
       var hiScores = window.localStorage.getItem("hiScores");
       is_sound = window.localStorage.getItem("sound");
       is_vibrate = window.localStorage.getItem("vibrate");
-      if (hiScores == null)
+      if (hiScores == null || hiScores == "[NaN,NaN,NaN]")
       {
         window.localStorage.setItem("hiScores", "[0,0,0]");
         hiScores = "[0,0,0]";
